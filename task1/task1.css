@@ -1,0 +1,55 @@
+h1{
+    color:red;
+}
+.d-flex{
+    display: flex;
+    gap: 20px;
+}
+.left{
+    max-width: 50%;
+    text-align:center;
+}
+.right{
+    max-width: 50%;
+}
+.text-white{
+    color:#fff;
+}
+.play-button p{
+    margin: 0;
+    font-size: 12px;
+}
+.play-button h4{
+    margin: 0;
+}
+.play-button{
+    padding: 5px;
+    background-color: greenyellow;
+    border-radius: 16px;
+    gap: 10px;
+    text-align: center;
+}
+/* .app-button p{
+    margin: 0;
+    font-size: 12px;
+}
+.app-button h4{
+    margin: 0;
+} */
+/* .app-button img{
+    height: 50px;
+    width: 50px;
+} */
+/* .app-button{
+    padding: 5px;
+    margin: 0;
+    background-color: #000;
+    border-radius: 16px;
+    gap: 10px;
+    text-align: center;
+} */
+@media screen and (max-width:768px) {
+    .d-flex{
+        flex-direction: column;
+    }
+}
